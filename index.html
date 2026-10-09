@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Antirot: your scrolling has a battery now</title>
+<meta name="description" content="Pick the apps that eat your day. They share one battery. Run it down and they lock. Step away and it charges back up.">
+<meta property="og:title" content="Antirot: your scrolling has a battery now">
+<meta property="og:description" content="One shared battery for your apps. Recharge it with real-life habits.">
+<meta property="og:image" content="img/icon-512.png">
+<meta name="theme-color" content="#C6EC6A">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <nav aria-label="Main">
+    <a class="brand" href="#top"><img src="img/hello.png" alt=""><span class="brand-word">antirot</span></a>
+    <div class="links"><a href="#how">How it works</a><a href="#earn">Earn time</a><a href="#faq">FAQ</a><a class="btn" href="#join">Get early access</a></div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div>
+      <span class="pill">iPhone and Android · coming soon</span>
+      <h1>Your scrolling has a battery now.</h1>
+      <p class="lead">Pick the apps that eat your day. They share one battery. Run it down and they lock. Step away and it charges back up.</p>
+      <form class="signup" novalidate>
+        <input type="email" required placeholder="you@email.com" aria-label="Email address" autocomplete="email">
+        <button class="btn" type="submit">Join the waitlist</button>
+        <p class="msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+    <div class="card shadow demo" aria-label="Try the battery">
+      <span class="pill tag">Try it</span>
+      <img class="benny" id="benny" src="img/proud.png" alt="Benny the brain mascot">
+      <div class="battery" role="img" aria-label="Battery"><div class="fill" id="fill"></div></div>
+      <div class="time" id="time">2h 30m</div>
+      <span class="pill" id="state">Full battery</span>
+      <div class="actions"><button class="btn" id="scroll" type="button">Scroll an app -30m</button><button class="btn white" id="outside" type="button">Go outside +20m</button></div>
+    </div>
+  </header>
+
+  <section id="how">
+    <p class="eyebrow">How it works</p>
+    <h2>Three rules. Benny keeps score.</h2>
+    <div class="rules">
+      <article class="card rule" style="background:var(--sky)"><img src="img/phone.png" alt=""><p class="eyebrow">Use</p><h3>Apps drain it</h3><p>TikTok, Instagram, YouTube, whatever you choose. Every minute you spend takes a little charge from the same battery.</p></article>
+      <article class="card rule" style="background:var(--coral)"><img src="img/asleep.png" alt=""><p class="eyebrow">Lock</p><h3>Zero means rest</h3><p>At 0% Benny passes out and your chosen apps lock. Nothing is deleted. You can still call, text and use everything else.</p></article>
+      <article class="card rule" style="background:var(--apricot)"><img src="img/recharging.png" alt=""><p class="eyebrow">Recharge</p><h3>Time away fills it</h3><p>Put the phone down and the battery climbs back. Gentle on weekdays, as strict as you like on Monday morning.</p></article>
+    </div>
+  </section>
+
+  <section id="earn">
+    <div class="card shadow earn">
+      <div>
+        <p class="eyebrow">Earn time</p>
+        <h2>Do something good. Get minutes back.</h2>
+        <p>Read a chapter, do ten pushups, make your bed. Prove it and the minutes land in today's battery.</p>
+        <img src="img/joy.png" alt="Benny celebrating">
+      </div>
+      <div class="habits">
+        <div class="habit"><i style="background:var(--sky)"></i><div><b>Read a chapter</b><small>Timer and a one-line takeaway</small></div><span>+10</span></div>
+        <div class="habit"><i style="background:var(--coral)"></i><div><b>Pushups</b><small>Camera counts your reps</small></div><span>+5</span></div>
+        <div class="habit"><i style="background:var(--apricot)"></i><div><b>Plank</b><small>Timer, hold for a minute</small></div><span>+5</span></div>
+        <div class="habit"><i style="background:var(--pink)"></i><div><b>Journal</b><small>Three private lines</small></div><span>+8</span></div>
+        <div class="habit"><i style="background:var(--lime)"></i><div><b>Make your bed</b><small>Before and after photo</small></div><span>+5</span></div>
+        <div class="habit"><i style="background:var(--violet)"></i><div><b>Reset a messy space</b><small>Before and after photo</small></div><span>+10</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Built into your phone</p>
+    <h2>Locks that feel like Benny, not a wall.</h2>
+    <div class="features">
+      <div class="card feature"><i style="background:var(--coral)"></i><h3>Friendly lock</h3><p>A blocked app opens to Benny asleep, with a button to earn time instead of a stern warning.</p></div>
+      <div class="card feature"><i style="background:var(--apricot)"></i><h3>Emergency unlock</h3><p>Really need it? Borrow a few minutes. Three a week.</p></div>
+      <div class="card feature"><i style="background:var(--sky)"></i><h3>Insights</h3><p>See what you saved each day, which apps cost the most and how often you hit zero.</p></div>
+      <div class="card feature"><i style="background:var(--lime)"></i><h3>Real habits</h3><p>Timers, a camera that counts pushups, and photos for tidying up. Habits that actually count.</p></div>
+      <div class="card feature"><i style="background:var(--pink)"></i><h3>Streaks and badges</h3><p>Stay under your limit day after day. Level up Benny without a leaderboard.</p></div>
+      <div class="card feature"><i style="background:var(--violet)"></i><h3>Your own size</h3><p>Make the battery 1 hour or 3. Shrink it when you are ready for a tougher week.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="card private">
+      <img src="img/sleepy.png" alt="Benny in a nightcap">
+      <div>
+        <h2>Stays on your phone.</h2>
+        <p>Antirot uses your phone's own Screen Time tools (Apple Screen Time on iPhone, Usage access on Android), so what you do in your apps stays on your device. Habit photos and journal lines are not sent anywhere. No ads, no selling data.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="eyebrow">Pricing</p>
+    <h2>Seven days free. Then pick one.</h2>
+    <div class="plans">
+      <div class="card plan best"><span class="pill">Best value</span><h3>Yearly</h3><div class="price">$29.99 <small>/year</small></div><ul><li>7 days free</li><li>Every feature</li><li>About $2.50 a month</li></ul></div>
+      <div class="card plan"><h3 style="margin-top:44px">Monthly</h3><div class="price">$4.99 <small>/month</small></div><ul><li>7 days free</li><li>Cancel any time</li><li>Every feature</li></ul></div>
+    </div>
+    <p class="note">Prices are placeholders until launch.</p>
+  </section>
+
+  <section id="faq">
+    <p class="eyebrow">Questions</p>
+    <h2>Good to know.</h2>
+    <div class="faq">
+      <details open><summary>Does it delete or hide my apps?</summary><p>No. They stay on your phone. When the battery hits zero they are locked until it recharges or you earn minutes.</p></details>
+      <details><summary>Can you see which apps I use?</summary><p>No. Antirot works with your phone's own Screen Time tools and keeps everything on your device. Nothing about your apps is sent to us.</p></details>
+      <details><summary>What if I cheat?</summary><p>Antirot is a tool for people who want help, so you are in charge. You can turn the permissions off or delete the app any time. Emergency unlocks are limited to three a week, and habits are checked on your phone.</p></details>
+      <details><summary>Is there an Android version?</summary><p>Yes. Antirot is coming to both iPhone and Android.</p></details>
+    </div>
+  </section>
+
+  <section id="join">
+    <div class="card shadow cta">
+      <img src="img/joy.png" alt="Benny celebrating">
+      <h2>Give Benny a full charge.</h2>
+      <p style="font-weight:800">Join the waitlist and be first in when Antirot opens.</p>
+      <form class="signup" novalidate>
+        <input type="email" required placeholder="you@email.com" aria-label="Email address" autocomplete="email">
+        <button class="btn" type="submit">Join the waitlist</button>
+        <p class="msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div class="wrap row">
+    <div><img src="img/hello.png" alt=""><span class="brand-word" style="font-size:24px">antirot</span><span>Made for people who mean to put the phone down.</span></div>
+    <nav aria-label="Legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+  </div>
+</footer>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
